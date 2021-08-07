@@ -1,0 +1,15 @@
+<html>
+<body >
+
+{{ range .data}}
+
+<h3>{{ .Title}}</h3>
+
+<h3>{{ .Author}}</h3>
+
+<a href="/books/del/{{ .ID}}">Delete</a>
+
+
+{{end}}
+</body>
+</html>
