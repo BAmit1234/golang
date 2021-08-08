@@ -3,8 +3,8 @@ package main
 package controllers
 package models
 import (
-	"controllers"
-	"models"
+	"github.com/BAmit1234/GinProject/controllers"
+	"github.com/BAmit1234/GinProject/models"
 
 	"github.com/gin-gonic/gin"
 )
